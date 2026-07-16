@@ -18,6 +18,10 @@ function toggletodos() {
   
 }
 
+function dontToggleTodos(){
+  
+}
+
 function saveTodos() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
 }
