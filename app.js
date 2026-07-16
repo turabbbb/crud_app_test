@@ -14,12 +14,8 @@ function loadTodos() {
   }
 }
 
-function toggletodos() {
-  
-}
-
-function dontToggleTodos(){
-  
+function sayHello(){
+  console.log("Hello, World!");
 }
 
 function saveTodos() {
