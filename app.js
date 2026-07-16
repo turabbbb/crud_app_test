@@ -14,6 +14,10 @@ function loadTodos() {
   }
 }
 
+function toggletodos() {
+  
+}
+
 function saveTodos() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
 }
