@@ -18,6 +18,10 @@ function sayHello(){
   console.log("Hello, World!");
 }
 
+function saybye(){
+  console.log("Goodbye, World!");
+}
+
 function saveTodos() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
 }
@@ -112,3 +116,4 @@ form.addEventListener('submit', (event) => {
 });
 
 renderTodos();
+
